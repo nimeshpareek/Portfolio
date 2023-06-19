@@ -16,18 +16,16 @@ function ProjectDisplay() {
         <b>Skills:</b> {project.skills}
       </p>
       <div className="project-icon">
-        <a
-          className="github_icon"
-          href="https://github.com/nimeshpareek/AceHack2.0"
-        >
-          <GitHubIcon />
-        </a>
-        <a
-          className="youtube_icon"
-          href="https://www.youtube.com/watch?v=u75SHm2Grew&t=5s"
-        >
-          <YouTube />
-        </a>
+        {project.githubLink && (
+          <a className="github_icon" href={project.githubLink}>
+            <GitHubIcon />
+          </a>
+        )}
+        {project.youtubeLink && (
+          <a className="youtube_icon" href={project.youtubeLink}>
+            <YouTube />
+          </a>
+        )}
       </div>
     </div>
   );
