@@ -10,19 +10,29 @@ function ProjectDisplay() {
   const project = ProjectList[id];
   return (
     <div className="project">
-      <h1> {project.name}</h1>
+      <h1>{project.name}</h1>
       <img src={project.image} alt="animatch_image" />
       <p>
         <b>Skills:</b> {project.skills}
       </p>
       <div className="project-icon">
         {project.githubLink && (
-          <a className="github_icon" href={project.githubLink}>
+          <a
+            className="github_icon"
+            href={project.githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <GitHubIcon />
           </a>
         )}
         {project.youtubeLink && (
-          <a className="youtube_icon" href={project.youtubeLink}>
+          <a
+            className="youtube_icon"
+            href={project.youtubeLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <YouTube />
           </a>
         )}
