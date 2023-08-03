@@ -20,13 +20,13 @@ export const ProjectList = [
     githubLink: "https://github.com/nimeshpareek/Portfolio",
     youtubeLink: "https://www.youtube.com/watch?v=gOotaD-dbx8",
   },
-  {
-    name: "React Media",
-    image: youtube,
-    skills: "ReactJs, Material UI",
-    githubLink: "https://github.com/nimeshpareek/R-Media",
-    youtubeLink: "https://youtu.be/dkx79g4Y7gQ",
-  },
+  // {
+  //   name: "React Media",
+  //   image: youtube,
+  //   skills: "ReactJs, Material UI",
+  //   githubLink: "https://github.com/nimeshpareek/R-Media",
+  //   youtubeLink: "https://youtu.be/dkx79g4Y7gQ",
+  // },
   {
     name: "Drum Kit",
     image: drum_kit,
