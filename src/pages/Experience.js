@@ -18,7 +18,7 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-          Maheshwari Dayanand Public School, Jaipur, India
+          Mahrishi Dayanand Public School, Jaipur, India
           </h3>
           <p> High School (12th)</p>
         </VerticalTimelineElement>
